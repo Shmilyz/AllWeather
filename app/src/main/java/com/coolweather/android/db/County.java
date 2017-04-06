@@ -6,10 +6,14 @@ import org.litepal.crud.DataSupport;
  * Created by Shmily_Z on 2017/4/5.
  */
 
-public class County extends DataSupport{
+public class County extends DataSupport {
+
     private int id;
+
     private String countyName;
+
     private String weatherId;
+
     private int cityId;
 
     public int getId() {
@@ -43,6 +47,7 @@ public class County extends DataSupport{
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
 /*
 * 关于区的数据库，继承了DataSupport
